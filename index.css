@@ -1,0 +1,111 @@
+
+
+body{
+  background-image: url(img0.jpeg);
+}
+
+button{
+     margin-right: 4%;
+     margin-right: 2%;
+            float: right;
+            padding: 8px 18px;
+            background-color:rgb(15, 217, 0);
+        
+            color: aliceblue;
+            border-radius: 15px;
+            font-size: large;
+          
+            a cursor: pointer;
+                 
+   }
+
+  .head{
+  margin-left: 10%;
+    height: 15%; width:25% ;   
+    padding: 18px 28px;
+        background-color: rgb(86, 58, 178);
+        color: azure;
+        border-radius: 15px;
+
+   }
+
+   .course{
+    float: left;
+    margin-left: 9%;
+    margin-left: 10%;
+    height: 10%; width:14% ;   
+    padding: 12px 20px;
+    background-color: rgb(220, 138, 57);
+    color: rgb(5, 5, 18);
+    border-radius: 15px;
+
+
+
+   }
+  
+  
+   h3{
+     margin-left: 190px;
+    color: azure;
+    margin-top: -250px;
+
+  }
+  
+  
+  .footer{
+  
+    margin-top:180PX ;
+    display: flex;
+      background-color: rgb(198, 233, 243); 
+        width: 30%;
+    justify-content: end;
+    padding: 10px;
+    color: rgb(26, 17, 2);
+    text-align: center;
+    border-radius:15px ;
+    margin-left: 60%;
+    
+    
+  
+  }
+.waste{
+  background-color: white;
+}
+
+.card-container{
+  display: flex;
+  justify-content: end;
+  gap: 20px;
+  padding-top: 20px;
+margin-right: 30px;
+
+  
+ 
+}
+  
+  .card{
+    height: 300px;
+    width: 200px;
+  
+  }
+
+  .card-img{
+background-color: aliceblue;
+    border: 2px solid black;
+height: 200px;
+width: 200px;
+border-radius: 15px;
+background-image: url(img0.jpeg);
+
+
+  }
+ 
+ 
+  .sh{
+    text-align: center;
+    font-size: larger;
+   margin-left: 600px;
+   color: aliceblue;
+  }
+
+ 

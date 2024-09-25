@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+
+    <link rel="stylesheet" href="registration.css">
+    
+
+</head>
+
+    <body>
+        
+    
+        <h1 >Registration Form</h1><br>
+  
+        <p style="margin-left: 6%;"><b>First Name</b> <span style="color: red;">*</span> 
+            <input type="text" placeholder="Enter First Name" >
+        </p>
+    
+         <p style="margin-left: 6%;"><b>Last name</b> <span style="color:red;">*</span>
+             <input type="text" placeholder="Enter Last Name" >
+         </p>
+   
+        <p style="margin-left: 6%;"><b>Date of Birth </b> <span style="color:red;">*</span>
+        <input type="date" placeholder="DOB"><span style="margin-left: 2%;"><b> gender : </b>
+        
+        
+        <label for="id1">
+        <input type="radio" value="male" name="gender"> Male
+        </label> 
+    
+        <label for="id2">
+        <input type="radio" value="Female" name="gender"> Female
+        </label></span></p> 
+    
+         <p style="margin-left: 6%;"><b>Address</b> <span style="color:red;">*</span>
+        <input type="text" placeholder="Enter Permanent Address" > <br>
+    
+        <p style="margin-left: 6%;"><b>Taluka</b> <span style="color:red;">*</span>
+        <input type="text" placeholder="Enter Taluka"> <span style="margin-left: 2%;" ><b>Dist</b> </span> <span style="color: red;">*  </span><input type="text" placeholder="Enter Dist" ><span style="margin-left: 2%;" ><b>State</b> </span> <span style="color: red;">*  </span><input type="text" placeholder=" Enter State" ><br>
+        </p>
+    
+        <p style="margin-left: 6%;"><b>Contact no :</b> <span style="color: red;">*</span> 
+        <input type="text" placeholder="Enter number" ></p>
+
+        <p style="margin-left: 6%;"><b>Email id</b> <span style="color: red;">*</span> 
+            <input type="text" placeholder="Enter email " ></p><br><br>
+    
+
+    <button  type="submit" onclick="sub();" ><b>Submit</b></button>
+    
+    <script>
+
+        function sub(){
+            alert(" Your request has been succesfully submited ");
+        }
+    </script>
+</body>
+</html>
